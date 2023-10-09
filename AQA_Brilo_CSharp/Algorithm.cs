@@ -45,7 +45,7 @@ namespace AQA_Brilo_CSharp
             {
                 numLength = int.Parse(Console.ReadLine());
             }
-            catch(Exception)
+            catch (Exception)
             {
                 throw new Exception("Введён неверный формат.");
             }
