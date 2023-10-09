@@ -8,7 +8,7 @@ namespace AQA_Brilo_CSharp
         {
             Console.WriteLine("Введите целое число:");
             double num;
-            bool isFormatCorrect = true;
+            bool isFormatCorrect;
             do
             {
                 isFormatCorrect = double.TryParse(Console.ReadLine(), out num);
